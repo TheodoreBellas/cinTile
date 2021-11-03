@@ -1,7 +1,7 @@
 {
-    "cinnamon-version": ["1.8", "2.0", "2.2", "2.4", "2.6"], 
-    "uuid": "gTile@shuairan", 
-    "name": "gTile", 
-    "description": "Tile your windows as you like. It even supports multiscreen ! -EDIT: - See README.md file for configuration -", 
-    "url" : "https://github.com/shuairan/gTile"
+    "cinnamon-version": ["1.8", "2.0", "2.2", "2.4", "2.6", "4.0", "5.0"], 
+    "uuid": "cinTile@TheodoreBellas", 
+    "name": "cinTile", 
+    "description": "Updated window-tiling manager for Cinnamon 5.x. - supports multiple monitors!", 
+    "url" : "https://github.com/TheodoreBellas/cinTile"
 }
