@@ -1,5 +1,16 @@
-# cinTile - Window-Tiling Extension for Cinnamon 5.x
+# cinTile 
+Window-Tiling Extension for Cinnamon 5.x
+
 -----
+- [Updates / Fixes](#updates--fixes)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Would You Like To Know More?](#would-you-like-to-know-more)
+  - [But... why?](#but-why)
+  - [Can I help?](#can-i-help)
+  - [Are you actually going to fix reported bugs or otherwise maintain this?](#are-you-actually-going-to-fix-reported-bugs-or-otherwise-maintain-this)
+
+
 
 The original gTile extension was developed by [vibou](https://github.com/vibou/vibou.gTile). The original Cinnamon fork was developed by [shuairan](https://github.com/shuairan/gTile). 
 
@@ -36,7 +47,7 @@ Move the resulting folder to the Cinnamon extensions folder:
 
 Once completed, you should see cinTile available in your Extensions window.
 
-# Usage:
+# Usage
 
 
 | Hotkey      | Function    |
