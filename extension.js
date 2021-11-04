@@ -1,9 +1,12 @@
 /*****************************************************************
 
-             This extension has been developped by
+             This extension has been developed by
             vibou and forked to cinnamon by shuairan
-
            With the help of the gnome-shell community
+
+            It was further forked by tbellas in order to
+              provide some small updates, including
+            improved multi-monitor and hotkey support
 
 ******************************************************************/
 
@@ -449,13 +452,16 @@ function showTiling() {
       let window = getFocusApp();
       let pos_x;
       let pos_y;
-      if (window.get_monitor() === parseInt(monitorIdx)) {
-        pos_x = window.get_outer_rect().width / 2 + window.get_outer_rect().x;
-        pos_y = window.get_outer_rect().height / 2 + window.get_outer_rect().y;
-      } else {
-        pos_x = monitor.x + monitor.width / 2;
-        pos_y = monitor.y + monitor.height / 2;
+
+      // If we're not currently looking at the currently-active monitor,
+      // skip it -- effectively only showing the grid menu on one active monitor
+      // instead of all of them
+      
+      if (window.get_monitor() !== parseInt(monitorIdx)) {
+        continue;
       }
+      pos_x = window.get_outer_rect().width / 2 + window.get_outer_rect().x;
+      pos_y = window.get_outer_rect().height / 2 + window.get_outer_rect().y;
 
       grid.set_position(Math.floor(pos_x - grid.actor.width / 2), Math.floor(pos_y - grid.actor.height / 2));
 
