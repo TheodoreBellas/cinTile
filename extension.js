@@ -1089,7 +1089,6 @@ Grid.prototype = {
   },
 
   show: function () {
-    1
     this.interceptHide = true;
     this.elementsDelegate.reset();
     let time = preferences.animation ? 0.3 : 0;
