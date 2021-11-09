@@ -63,12 +63,6 @@ for (let type in KEYCONTROL) {
   KEYCONTROL[type + '-meta'] = metaKey + key;
 }
 
-// Add hotkeys for switching grid orientations
-// KEYCONTROL['cinTile-k-switch-1'] = '1';
-// KEYCONTROL['cinTile-k-switch-2'] = '2';
-// KEYCONTROL['cinTile-k-switch-3'] = '3';
-// KEYCONTROL['cinTile-k-switch-4'] = '4';
-
 let status;
 let grids;
 let monitors;
@@ -1290,10 +1284,8 @@ Grid.prototype = {
       candidate = grids[k];
     }
     if (candidate) {
-      12
       candidate._bindKeyControls();
     }
-    2
   },
 
   _keyGrid1: function () {
@@ -1333,7 +1325,6 @@ Grid.prototype = {
   },
 
   _destroy: function () {
-    11
     for (let r in this.elements) {
       for (let c in this.elements[r]) {
         this.elements[r][c]._destroy();
