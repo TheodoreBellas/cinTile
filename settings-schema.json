@@ -16,7 +16,7 @@
  "hotkey": {
     "type" : "keybinding",
     "default" : "<Super>g",
-    "description" : "Global Hotkey for gTile"
+    "description" : "Global Hotkey for cinTile"
  },
 
  "seperator0" : {
