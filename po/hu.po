@@ -18,70 +18,70 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Language: hu\n"
 
-#. cinTile@TheodoreBellas->metadata.json->description
+#. cinTile@tabcodes->metadata.json->description
 msgid "Tile your windows as you like."
 msgstr "Csempézze az ablakokat ahogy szeretné."
 
-#. cinTile@TheodoreBellas->metadata.json->name
+#. cinTile@tabcodes->metadata.json->name
 msgid "cinTile"
 msgstr "cinTile"
 
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton2x->description
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton4x->description
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton3x->description
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton1x->description
+#. cinTile@tabcodes->settings-schema.json->gridbutton2x->description
+#. cinTile@tabcodes->settings-schema.json->gridbutton4x->description
+#. cinTile@tabcodes->settings-schema.json->gridbutton3x->description
+#. cinTile@tabcodes->settings-schema.json->gridbutton1x->description
 msgid "Columns"
 msgstr "Oszlopok"
 
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton2x->units
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton4x->units
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton3x->units
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton1x->units
+#. cinTile@tabcodes->settings-schema.json->gridbutton2x->units
+#. cinTile@tabcodes->settings-schema.json->gridbutton4x->units
+#. cinTile@tabcodes->settings-schema.json->gridbutton3x->units
+#. cinTile@tabcodes->settings-schema.json->gridbutton1x->units
 msgid "x"
 msgstr "x"
 
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton2y->description
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton4y->description
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton3y->description
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton1y->description
+#. cinTile@tabcodes->settings-schema.json->gridbutton2y->description
+#. cinTile@tabcodes->settings-schema.json->gridbutton4y->description
+#. cinTile@tabcodes->settings-schema.json->gridbutton3y->description
+#. cinTile@tabcodes->settings-schema.json->gridbutton1y->description
 msgid "Rows"
 msgstr "Sorok"
 
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton2y->units
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton4y->units
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton3y->units
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton1y->units
+#. cinTile@tabcodes->settings-schema.json->gridbutton2y->units
+#. cinTile@tabcodes->settings-schema.json->gridbutton4y->units
+#. cinTile@tabcodes->settings-schema.json->gridbutton3y->units
+#. cinTile@tabcodes->settings-schema.json->gridbutton1y->units
 msgid "y"
 msgstr "y"
 
-#. cinTile@TheodoreBellas->settings-schema.json->header2->description
+#. cinTile@tabcodes->settings-schema.json->header2->description
 msgid "Layout for Button 2:"
 msgstr "Gomb 2:"
 
-#. cinTile@TheodoreBellas->settings-schema.json->header3->description
+#. cinTile@tabcodes->settings-schema.json->header3->description
 msgid "Layout for Button 3:"
 msgstr "Gomb 3:"
 
-#. cinTile@TheodoreBellas->settings-schema.json->header1->description
+#. cinTile@tabcodes->settings-schema.json->header1->description
 msgid "Layout for Button 1:"
 msgstr "Gomb 1:"
 
-#. cinTile@TheodoreBellas->settings-schema.json->header4->description
+#. cinTile@tabcodes->settings-schema.json->header4->description
 msgid "Layout for Button 4:"
 msgstr "Gomb 4:"
 
-#. cinTile@TheodoreBellas->settings-schema.json->autoclose->description
+#. cinTile@tabcodes->settings-schema.json->autoclose->description
 msgid "Auto-Close"
 msgstr "Automatikus bezárás"
 
-#. cinTile@TheodoreBellas->settings-schema.json->headerKeys->description
+#. cinTile@tabcodes->settings-schema.json->headerKeys->description
 msgid "Hotkeys:"
 msgstr "Gyorsgombok:"
 
-#. cinTile@TheodoreBellas->settings-schema.json->hotkey->description
+#. cinTile@tabcodes->settings-schema.json->hotkey->description
 msgid "Global Hotkey for cinTile"
 msgstr "Globális gyorsgomb a cinTile-hoz"
 
-#. cinTile@TheodoreBellas->settings-schema.json->animation->description
+#. cinTile@tabcodes->settings-schema.json->animation->description
 msgid "Animation"
 msgstr "Animáció"

@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Language: zh_CN\n"
 
-#. cinTile@TheodoreBellas->metadata.json->description
+#. cinTile@tabcodes->metadata.json->description
 msgid ""
 "Tile your windows as you like. It even supports multiscreen ! -EDIT: - See "
 "README.md file for configuration -"
@@ -21,66 +21,66 @@ msgstr ""
 "按照您喜欢的方式平铺窗口。甚至支持多屏幕！-编辑：查看README.md文件获取配置 "
 "-"
 
-#. cinTile@TheodoreBellas->metadata.json->name
+#. cinTile@tabcodes->metadata.json->name
 msgid "cinTile"
 msgstr "cinTile"
 
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton2x->description
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton4x->description
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton3x->description
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton1x->description
+#. cinTile@tabcodes->settings-schema.json->gridbutton2x->description
+#. cinTile@tabcodes->settings-schema.json->gridbutton4x->description
+#. cinTile@tabcodes->settings-schema.json->gridbutton3x->description
+#. cinTile@tabcodes->settings-schema.json->gridbutton1x->description
 msgid "Columns"
 msgstr "列数"
 
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton2x->units
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton4x->units
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton3x->units
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton1x->units
+#. cinTile@tabcodes->settings-schema.json->gridbutton2x->units
+#. cinTile@tabcodes->settings-schema.json->gridbutton4x->units
+#. cinTile@tabcodes->settings-schema.json->gridbutton3x->units
+#. cinTile@tabcodes->settings-schema.json->gridbutton1x->units
 msgid "x"
 msgstr "x"
 
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton2y->description
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton4y->description
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton3y->description
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton1y->description
+#. cinTile@tabcodes->settings-schema.json->gridbutton2y->description
+#. cinTile@tabcodes->settings-schema.json->gridbutton4y->description
+#. cinTile@tabcodes->settings-schema.json->gridbutton3y->description
+#. cinTile@tabcodes->settings-schema.json->gridbutton1y->description
 msgid "Rows"
 msgstr "行数"
 
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton2y->units
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton4y->units
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton3y->units
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton1y->units
+#. cinTile@tabcodes->settings-schema.json->gridbutton2y->units
+#. cinTile@tabcodes->settings-schema.json->gridbutton4y->units
+#. cinTile@tabcodes->settings-schema.json->gridbutton3y->units
+#. cinTile@tabcodes->settings-schema.json->gridbutton1y->units
 msgid "y"
 msgstr "y"
 
-#. cinTile@TheodoreBellas->settings-schema.json->header2->description
+#. cinTile@tabcodes->settings-schema.json->header2->description
 msgid "Layout for Button 2:"
 msgstr "按钮2："
 
-#. cinTile@TheodoreBellas->settings-schema.json->header3->description
+#. cinTile@tabcodes->settings-schema.json->header3->description
 msgid "Layout for Button 3:"
 msgstr "按钮3："
 
-#. cinTile@TheodoreBellas->settings-schema.json->header1->description
+#. cinTile@tabcodes->settings-schema.json->header1->description
 msgid "Layout for Button 1:"
 msgstr "按钮1："
 
-#. cinTile@TheodoreBellas->settings-schema.json->header4->description
+#. cinTile@tabcodes->settings-schema.json->header4->description
 msgid "Layout for Button 4:"
 msgstr "按钮4："
 
-#. cinTile@TheodoreBellas->settings-schema.json->autoclose->description
+#. cinTile@tabcodes->settings-schema.json->autoclose->description
 msgid "Auto-Close"
 msgstr "自动关闭"
 
-#. cinTile@TheodoreBellas->settings-schema.json->headerKeys->description
+#. cinTile@tabcodes->settings-schema.json->headerKeys->description
 msgid "Hotkeys:"
 msgstr "热键："
 
-#. cinTile@TheodoreBellas->settings-schema.json->hotkey->description
+#. cinTile@tabcodes->settings-schema.json->hotkey->description
 msgid "Global Hotkey for cinTile"
 msgstr "cinTile的全局热键"
 
-#. cinTile@TheodoreBellas->settings-schema.json->animation->description
+#. cinTile@tabcodes->settings-schema.json->animation->description
 msgid "Animation"
 msgstr "动画"

@@ -8,8 +8,8 @@
         "4.8",
         "5.0"
     ],
-    "uuid": "cinTile@TheodoreBellas",
+    "uuid": "cinTile@tabcodes",
     "name": "cinTile",
     "description": "Updated window-tiling manager for Cinnamon 5.x. - supports multiple monitors!",
-    "url": "https://github.com/TheodoreBellas/cinTile"
+    "url": "https://github.com/tabcodes/cinTile"
 }

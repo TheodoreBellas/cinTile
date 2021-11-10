@@ -4,7 +4,7 @@
             vibou and forked to cinnamon by shuairan
            With the help of the gnome-shell community
 
-            It was further forked by tbellas in order to
+            It was further forked by tabcodes in order to
               provide some small updates, including
             improved multi-monitor and hotkey support
 2ggg
@@ -28,7 +28,7 @@ const Panel = imports.ui.panel;
 
 const GLib = imports.gi.GLib;
 const Gettext = imports.gettext;
-const UUID = 'cinTile@TheodoreBellas';
+const UUID = 'cinTile@tabcodes';
 Gettext.bindtextdomain(UUID, GLib.get_home_dir() + '/.local/share/locale');
 
 function _(str) {
@@ -92,7 +92,7 @@ const isFinalized = function (obj) {
 /*INIT SETTINGS HERE TO ADD OR REMOVE SETTINGS BUTTON*/
 /*new GridSettingsButton(LABEL, NBCOL, NBROW) */
 function initSettings() {
-  settings = new Settings.ExtensionSettings(preferences, 'cinTile@TheodoreBellas');
+  settings = new Settings.ExtensionSettings(preferences, 'cinTile@tabcodes');
   //hotkey
   settings.bindProperty(Settings.BindingDirection.IN, 'hotkey', 'hotkey', enableHotkey, null);
   //grid (nbCols and nbRows)

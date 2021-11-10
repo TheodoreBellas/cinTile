@@ -1,11 +1,11 @@
-# Swedish translation for cinTile@TheodoreBellas.
+# Swedish translation for cinTile@tabcodes.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Åke Engelbrektson <eson@svenskasprakfiler.se>, 2017, 2019, 2021
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: cinTile@TheodoreBellas\n"
+"Project-Id-Version: cinTile@tabcodes\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-30 12:00+0800\n"
 "PO-Revision-Date: 2021-01-12 21:08+0100\n"
@@ -18,71 +18,71 @@ msgstr ""
 "X-Generator: Poedit 2.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. cinTile@TheodoreBellas->metadata.json->description
+#. cinTile@tabcodes->metadata.json->description
 msgid "Tile your windows as you like."
 msgstr "Fördela dina fönster som du vill."
 
-#. cinTile@TheodoreBellas->metadata.json->name
+#. cinTile@tabcodes->metadata.json->name
 msgid "cinTile"
 msgstr "cinTile"
 
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton2x->description
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton4x->description
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton3x->description
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton1x->description
+#. cinTile@tabcodes->settings-schema.json->gridbutton2x->description
+#. cinTile@tabcodes->settings-schema.json->gridbutton4x->description
+#. cinTile@tabcodes->settings-schema.json->gridbutton3x->description
+#. cinTile@tabcodes->settings-schema.json->gridbutton1x->description
 msgid "Columns"
 msgstr "Kolumner"
 
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton2x->units
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton4x->units
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton3x->units
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton1x->units
+#. cinTile@tabcodes->settings-schema.json->gridbutton2x->units
+#. cinTile@tabcodes->settings-schema.json->gridbutton4x->units
+#. cinTile@tabcodes->settings-schema.json->gridbutton3x->units
+#. cinTile@tabcodes->settings-schema.json->gridbutton1x->units
 msgid "x"
 msgstr "x"
 
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton2y->description
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton4y->description
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton3y->description
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton1y->description
+#. cinTile@tabcodes->settings-schema.json->gridbutton2y->description
+#. cinTile@tabcodes->settings-schema.json->gridbutton4y->description
+#. cinTile@tabcodes->settings-schema.json->gridbutton3y->description
+#. cinTile@tabcodes->settings-schema.json->gridbutton1y->description
 msgid "Rows"
 msgstr "Rader"
 
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton2y->units
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton4y->units
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton3y->units
-#. cinTile@TheodoreBellas->settings-schema.json->gridbutton1y->units
+#. cinTile@tabcodes->settings-schema.json->gridbutton2y->units
+#. cinTile@tabcodes->settings-schema.json->gridbutton4y->units
+#. cinTile@tabcodes->settings-schema.json->gridbutton3y->units
+#. cinTile@tabcodes->settings-schema.json->gridbutton1y->units
 msgid "y"
 msgstr "y"
 
-#. cinTile@TheodoreBellas->settings-schema.json->header2->description
+#. cinTile@tabcodes->settings-schema.json->header2->description
 msgid "Layout for Button 2:"
 msgstr "Layout för knapp 2:"
 
-#. cinTile@TheodoreBellas->settings-schema.json->header3->description
+#. cinTile@tabcodes->settings-schema.json->header3->description
 msgid "Layout for Button 3:"
 msgstr "Layout för knapp 3:"
 
-#. cinTile@TheodoreBellas->settings-schema.json->header1->description
+#. cinTile@tabcodes->settings-schema.json->header1->description
 msgid "Layout for Button 1:"
 msgstr "Layout för knapp 1:"
 
-#. cinTile@TheodoreBellas->settings-schema.json->header4->description
+#. cinTile@tabcodes->settings-schema.json->header4->description
 msgid "Layout for Button 4:"
 msgstr "Layout för knapp 4:"
 
-#. cinTile@TheodoreBellas->settings-schema.json->autoclose->description
+#. cinTile@tabcodes->settings-schema.json->autoclose->description
 msgid "Auto-Close"
 msgstr "Stäng automatiskt"
 
-#. cinTile@TheodoreBellas->settings-schema.json->headerKeys->description
+#. cinTile@tabcodes->settings-schema.json->headerKeys->description
 msgid "Hotkeys:"
 msgstr "Snabbtangenter:"
 
-#. cinTile@TheodoreBellas->settings-schema.json->hotkey->description
+#. cinTile@tabcodes->settings-schema.json->hotkey->description
 msgid "Global Hotkey for cinTile"
 msgstr "Snabbtangenter för cinTile"
 
-#. cinTile@TheodoreBellas->settings-schema.json->animation->description
+#. cinTile@tabcodes->settings-schema.json->animation->description
 msgid "Animation"
 msgstr "Animering"
 

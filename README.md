@@ -39,13 +39,13 @@ At the moment, this extension isn't available for download via the Extensions Ma
 
 Manual installation is as follows.
 
-	git clone https://github.com/TheodoreBellas/cinTile.git
+	git clone https://github.com/tabcodes/cinTile.git
 
 (Or download the project's ZIP archive and extract it.)
 
 Move the resulting folder to the Cinnamon extensions folder:
 
-	mv cinTile ~/.local/share/cinnamon/extensions/cinTile@TheodoreBellas
+	mv cinTile ~/.local/share/cinnamon/extensions/cinTile@tabcodes
 
 Once completed, you should see cinTile available in your Extensions window.
 
