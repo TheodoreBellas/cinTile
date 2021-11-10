@@ -25,6 +25,8 @@ I picked this up to fix one issue I'd noticed specifically: keyboard support for
 
 It's also been modified such that now, when you open the grid window (via hotkey), it only opens on the active monitor- as opposed to all of them, which I believe may have been<sup>*</sup> the source of some issues.
 
+It's now also possible to switch between grid options via hotkey, using (non-numpad) number keys 1-4!
+
 <sub><sub>* But I'm also wrong, like... *all* the time. For further reference, see my stock portfolio and/or sportsbook.</sub></sub>
 
 
@@ -56,7 +58,11 @@ Once completed, you should see cinTile available in your Extensions window.
 | <kbd>Esc</kbd> | Close cinTile Grid menu       |
 | <kbd>Shift</kbd>+<kbd>Arrow Key(s)</kbd> | Select grid tile with keyboard |
 | <kbd>Shift</kbd>+<kbd>Arrow Key(s)</kbd> | Select multiple grid tiles/wide grid |
-| <kbd>Space</kbd> or <kbd>Enter</kbd> | Tile the selected area |
+| <kbd>1</kbd>| Switch to grid orientation #1 |
+| <kbd>2</kbd>| Switch to grid orientation #2 |
+| <kbd>3</kbd>| Switch to grid orientation #3 |
+| <kbd>4</kbd>| Switch to grid orientation #4 |
+
 
 # Would You Like To Know More?
 
