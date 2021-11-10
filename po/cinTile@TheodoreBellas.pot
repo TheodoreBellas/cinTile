@@ -34,7 +34,7 @@ msgid "Auto tile two lists"
 msgstr ""
 
 #. metadata.json->name
-msgid "gTile"
+msgid "cinTile"
 msgstr ""
 
 #. metadata.json->description
@@ -46,7 +46,7 @@ msgid "Hotkeys:"
 msgstr ""
 
 #. settings-schema.json->hotkey->description
-msgid "Global Hotkey for gTile"
+msgid "Global Hotkey for cinTile"
 msgstr ""
 
 #. settings-schema.json->headerBehavior->description
