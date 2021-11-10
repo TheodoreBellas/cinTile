@@ -63,6 +63,12 @@ for (let type in KEYCONTROL) {
   KEYCONTROL[type + '-meta'] = metaKey + key;
 }
 
+// Key controls for switching to different tile organizations
+KEYCONTROL['cinTile-k-switch-1'] = '1';
+KEYCONTROL['cinTile-k-switch-2'] = '2';
+KEYCONTROL['cinTile-k-switch-3'] = '3';
+KEYCONTROL['cinTile-k-switch-4'] = '4';
+
 let status;
 let grids;
 let monitors;
@@ -1188,11 +1194,6 @@ Grid.prototype = {
     Main.keybindingManager.addHotKey('cinTile-close', 'Escape', Lang.bind(this, toggleTiling));
     Main.keybindingManager.addHotKey('cinTile-tile1', 'space', Lang.bind(this, this._keyTile));
     Main.keybindingManager.addHotKey('cinTile-tile2', 'Return', Lang.bind(this, this._keyTile));
-    Main.keybindingManager.addHotKey('cinTile-k-switch-1', '1', Lang.bind(this, this._keyGrid1));
-    Main.keybindingManager.addHotKey('cinTile-k-switch-2', '2', Lang.bind(this, this._keyGrid2));
-    Main.keybindingManager.addHotKey('cinTile-k-switch-3', '3', Lang.bind(this, this._keyGrid3));
-    Main.keybindingManager.addHotKey('cinTile-k-switch-4', '4', Lang.bind(this, this._keyGrid4));
-
 
     for (let index in KEYCONTROL) {
       let key = KEYCONTROL[index];
@@ -1257,9 +1258,24 @@ Grid.prototype = {
         this.rowKey = Math.min(this.rowKey + 1, this.rows - 1);
         this.colKey = this.colKey === -1 ? 0 : this.colKey; //leave initial state
         break;
+      case 'cinTile-k-switch-1':
+        this._keyGrid(1);
+        break;
+      case 'cinTile-k-switch-2':
+        this._keyGrid(2);
+        break;
+      case 'cinTile-k-switch-3':
+        this._keyGrid(3);
+        break;
+      case 'cinTile-k-switch-4':
+        this._keyGrid(4);
+        break;
     }
-    this.keyElement = this.elements[this.rowKey] ? this.elements[this.rowKey][this.colKey] : null;
-    if (this.keyElement) this.keyElement._onHoverChanged();
+
+    if(type.indexOf('switch') == -1) {
+      this.keyElement = this.elements[this.rowKey] ? this.elements[this.rowKey][this.colKey] : null;
+      if (this.keyElement) this.keyElement._onHoverChanged();
+    }
   },
 
   _keyTile: function () {
@@ -1287,40 +1303,16 @@ Grid.prototype = {
     }
   },
 
-  _keyGrid1: function () {
+  _keyGrid: function (index) {
     this.table.destroy_all_children();
-    preferences.nbRows = preferences.gridbutton1y;
-    preferences.nbCols = preferences.gridbutton1x;
+
+    let gridPropX = 'gridbutton' + index + 'x';
+    let gridPropY = 'gridbutton' + index + 'y';
+
+    preferences.nbRows = preferences[gridPropY];
+    preferences.nbCols = preferences[gridPropX];
 
     this.refresh();
-    // this._displayElements();
-  },
-
-  _keyGrid2: function () {
-    this.table.destroy_all_children();
-    preferences.nbRows = preferences.gridbutton2y;
-    preferences.nbCols = preferences.gridbutton2x;
-
-    this.refresh();
-    // this._displayElements();
-  },
-
-  _keyGrid3: function () {
-    this.table.destroy_all_children();
-    preferences.nbRows = preferences.gridbutton3y;
-    preferences.nbCols = preferences.gridbutton3x;
-
-    this.refresh();
-    // this._displayElements();
-  },
-
-  _keyGrid4: function () {
-    this.table.destroy_all_children();
-    preferences.nbRows = preferences.gridbutton4y;
-    preferences.nbCols = preferences.gridbutton4x;
-
-    this.refresh();
-    // this._displayElements();
   },
 
   _destroy: function () {
