@@ -32,16 +32,13 @@ It's now also possible to switch between grid options via hotkey, using (non-num
 
 # Installation
 
-At the moment, this extension isn't available for download via the Extensions Manager/Cinnamon Spices, mainly because:
+Recently, this extension was added into the Cinnamon Spices Extensions repository! You can download it from Cinnamon's extensions menu, or from the entry on the Spices list [here](https://cinnamon-spices.linuxmint.com/extensions/view/90).
 
-* I don't actually know how to do that.
-* It hasn't been tested on any machine other than my own, and I'm not entirely sure it works. (see: "Would You Like To Know More?")
-
-Manual installation is as follows.
+Or, if you prefer, manual installation instructions are as follows:
 
 	git clone https://github.com/tabcodes/cinTile.git
 
-(Or download the project's ZIP archive and extract it.)
+(Or download the project's ZIP archive and extract it)
 
 Move the resulting folder to the Cinnamon extensions folder:
 
