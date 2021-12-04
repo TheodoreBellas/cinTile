@@ -347,9 +347,6 @@ function move_resize_window(metaWindow, x, y, width, height) {
   let clientRect = metaWindow.get_rect();
   let outerRect = metaWindow.get_outer_rect();
 
-  let shiftX = 0;
-  let shiftY = 0;
-
   let client_deco = clientRect.width > outerRect.width &&
     clientRect.height > outerRect.height;
 
