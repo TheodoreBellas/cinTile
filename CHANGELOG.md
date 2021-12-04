@@ -1,5 +1,9 @@
 == Changelog ==
 
+* v0.3
+    + BUGFIX: Resizing windows with customized/client-decorated styling is no longer inaccurate in size/positioning.
+
+
 * v0.2
     + FEATURE: While cinTile is open, hotkeys 1-4 now navigate between grid layouts
 

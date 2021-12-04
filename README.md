@@ -27,6 +27,8 @@ It's also been modified such that now, when you open the grid window (via hotkey
 
 It's now also possible to switch between grid options via hotkey, using (non-numpad) number keys 1-4!
 
+Thanks to @mtwebster's recent update to the original gTile, resizing/repositioning windows with custom/client-decorated borders now does so accurately. (Huge thanks to them for this fix!)
+
 <sub><sub>* But I'm also wrong, like... *all* the time. For further reference, see my stock portfolio and/or sportsbook.</sub></sub>
 
 
