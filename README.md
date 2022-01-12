@@ -1,6 +1,8 @@
 # cinTile 
 Window-Tiling Extension for Cinnamon 5.x
 
+### This has been deprecated in favor of the recent updates made to the original gTile.
+
 -----
 - [Updates / Fixes](#updates--fixes)
 - [Installation](#installation)
